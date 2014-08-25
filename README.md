@@ -1,4 +1,4 @@
-7510-tp0
+Trabajo Práctico N°0
 ========
 
 Técnicas de Diseño - Trabajo práctico N°0 
