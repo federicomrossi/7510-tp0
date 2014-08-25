@@ -1,0 +1,16 @@
+2014-08-25 16:29:10,376 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml
+2014-08-25 16:29:19,359 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-25 16:29:23,042 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-25 16:29:23,061 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp0/src/main/java
+2014-08-25 16:29:23,079 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp0/src/test/java
+2014-08-25 16:29:25,537 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2014-08-25 16:29:28,837 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-25 16:29:29,670 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-25 16:29:29,671 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-25 16:29:29,675 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-25 16:29:29,675 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-25 16:29:30,851 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-25 16:29:31,818 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-25 16:29:31,818 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-25 16:29:31,822 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-25 16:29:31,823 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources

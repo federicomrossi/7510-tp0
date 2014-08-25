@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\.metadata\.plugins\org.eclipse.jdt.core
+4202817232.index
