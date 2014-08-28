@@ -1,16 +1,122 @@
-2014-08-25 16:29:10,376 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml
-2014-08-25 16:29:19,359 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
-2014-08-25 16:29:23,042 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
-2014-08-25 16:29:23,061 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp0/src/main/java
-2014-08-25 16:29:23,079 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp0/src/test/java
-2014-08-25 16:29:25,537 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
-2014-08-25 16:29:28,837 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
-2014-08-25 16:29:29,670 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2014-08-25 16:29:29,671 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
-2014-08-25 16:29:29,675 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2014-08-25 16:29:29,675 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
-2014-08-25 16:29:30,851 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 7510:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
-2014-08-25 16:29:31,818 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2014-08-25 16:29:31,818 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
-2014-08-25 16:29:31,822 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
-2014-08-25 16:29:31,823 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:41:18,215 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml
+2014-08-28 19:41:26,155 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tdd:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-28 19:41:29,498 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tdd:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-28 19:41:29,525 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp0/src/main/java
+2014-08-28 19:41:29,566 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp0/src/test/java
+2014-08-28 19:41:33,993 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2014-08-28 19:41:35,880 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tdd:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-28 19:41:36,016 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:41:36,016 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:41:36,023 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:41:36,024 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:49:20,609 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tdd:tp0:0.0.1-SNAPSHOT @ F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\pom.xml.
+2014-08-28 19:49:20,730 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:49:20,731 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:49:20,733 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:49:20,734 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:49:36,041 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0
+2014-08-28 19:49:36,042 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2014-08-28 19:49:50,232 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:49:50,233 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:49:50,238 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:49:50,238 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:50:47,895 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:50:47,897 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:50:47,900 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:50:47,901 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:52:43,339 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:52:43,340 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:52:43,342 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:52:43,343 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:54:28,820 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:54:28,820 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:54:28,844 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:54:28,846 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:54:30,481 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:54:30,481 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:54:30,487 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:54:30,497 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:54:45,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:54:45,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:54:45,026 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:54:45,026 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:54:47,731 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0
+2014-08-28 19:54:47,732 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2014-08-28 19:55:15,271 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:55:15,272 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:55:15,273 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:55:15,274 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:55:21,832 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0
+2014-08-28 19:55:21,833 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2014-08-28 19:55:34,847 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:55:34,848 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:55:34,850 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:55:34,850 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:58:15,829 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:58:15,829 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:58:15,831 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:58:15,832 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:58:36,042 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:58:36,042 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:58:36,045 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:58:36,045 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:59:18,255 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:59:18,255 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:59:18,257 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:59:18,258 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 19:59:35,810 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:59:35,810 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 19:59:35,812 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 19:59:35,812 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:00:01,759 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:00:01,759 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:00:01,773 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:00:01,774 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:00:37,212 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:00:37,214 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:00:37,218 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:00:37,218 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:05:24,466 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:05:24,467 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:05:24,468 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:05:24,469 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:06:51,543 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:06:51,543 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:06:51,553 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:06:51,554 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:07:03,463 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:07:03,463 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:07:03,464 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:07:03,465 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:07:43,285 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:07:43,286 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:07:43,288 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:07:43,288 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:08:06,060 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:06,061 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:08:06,066 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:06,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:08:34,794 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:34,796 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:08:34,798 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:34,798 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:08:50,857 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:50,857 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:08:50,859 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:50,859 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:08:57,867 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:57,867 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:08:57,869 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:08:57,869 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:09:45,499 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:09:45,502 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:09:45,510 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:09:45,510 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:10:07,304 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:10:07,304 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:10:07,306 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:10:07,306 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
+2014-08-28 20:10:47,159 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:10:47,159 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\main\resources
+2014-08-28 20:10:47,162 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-28 20:10:47,164 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Federico\FIUBA\75.10 Tecnicas de Diseño\Trabajos practicos\TP0\fuentes\tp0\src\test\resources
