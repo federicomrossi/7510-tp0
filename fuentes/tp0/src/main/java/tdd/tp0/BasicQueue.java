@@ -9,8 +9,12 @@ package tdd.tp0;
 * @version 1.0
 * @since   2014-08-28
 */
-public class BasicQueue implements Queue {
-
+public class BasicQueue implements Queue
+{
+	private BasicQueueNode last = null;
+	private BasicQueueNode top = null;
+	private int cantNodes = 0;
+	
 	/**
 	 * <h2>isEmpty()</h2>
 	 * Comprueba si la cola se encuentra vacía.
@@ -18,9 +22,9 @@ public class BasicQueue implements Queue {
 	 * 
 	 * @return	'true' si la cola se encuentra vacía o 'false' en su defecto.
 	 */
-	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean isEmpty()
+	{
+		return this.top == null;
 	}
 
 	/**
@@ -30,9 +34,9 @@ public class BasicQueue implements Queue {
 	 * 
 	 * @return	Integer que representa la cantidad de elementos.
 	 */
-	public int size() {
-		// TODO Auto-generated method stub
-		return 0;
+	public int size()
+	{
+		return this.cantNodes;
 	}
 
 	/**
@@ -43,8 +47,19 @@ public class BasicQueue implements Queue {
 	 * @param	item	elemento de tipo Object que será agregado a la cola.
 	 * @return	Nada.
 	 */
-	public void add(Object item) {
-		// TODO Auto-generated method stub
+	public void add(Object item)
+	{
+		BasicQueueNode n = new BasicQueueNode(item);
+		
+		if(this.last != null)
+			this.last.setNext(n);
+		
+		this.last = n;
+		
+		if(this.top == null)
+			this.top = this.last;
+		
+		this.cantNodes++;
 	}
 
 	/**
@@ -55,9 +70,12 @@ public class BasicQueue implements Queue {
 	 * @exception IllegalStateException La cola se encuentra vacía
 	 * @return	Elemento de tipo Object.
 	 */
-	public Object top() throws IllegalStateException {
-		// TODO Auto-generated method stub
-		return null;
+	public Object top() throws IllegalStateException
+	{
+		if(this.top == null)
+			throw new IllegalStateException("La cola se encuentra vacía");
+		
+		return this.top.getElement();
 	}
 
 	/**
@@ -67,8 +85,17 @@ public class BasicQueue implements Queue {
 	 * 
 	 * @exception IllegalStateException La cola se encuentra vacía
 	 */
-	public void remove() throws IllegalStateException {
-		// TODO Auto-generated method stub
+	public void remove() throws IllegalStateException
+	{
+		if(this.top == null)
+			throw new IllegalStateException("La cola se encuentra vacía");
+	
+		this.top = this.top.getNext();
+		this.cantNodes--;
 	}
-
+	
+//	private BasicQueueNode getNextUntilTop(BasicQueueNode n)
+//	{
+//		return this.getNextUntilTop(n.getNext());
+//	}
 }

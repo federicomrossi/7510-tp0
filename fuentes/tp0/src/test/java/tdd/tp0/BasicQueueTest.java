@@ -17,9 +17,9 @@ import junit.framework.TestSuite;
 public class BasicQueueTest extends TestCase {
 
 	public static Test suite()
-    {
-        return new TestSuite(BasicQueueTest.class);
-    }
+	{
+		return new TestSuite(BasicQueueTest.class);
+	}
 
 	/**
 	 * <h2>testBasicQueueCreation_01()</h2>
@@ -98,15 +98,15 @@ public class BasicQueueTest extends TestCase {
 	{
 		BasicQueue q = new BasicQueue();
 		
-		assertEquals("El tamaño es cero", 0, q.size());
+		assertEquals("El tamaño es 0", 0, q.size());
 		q.add(1);
-		assertEquals("El tamaño es cero", 1, q.size());
+		assertEquals("El tamaño es 1", 1, q.size());
 		q.add(2);
-		assertEquals("El tamaño es cero", 2, q.size());
+		assertEquals("El tamaño es 2", 2, q.size());
 		q.remove();
-		assertEquals("El tamaño es cero", 1, q.size());
+		assertEquals("El tamaño es 1", 1, q.size());
 		q.remove();
-		assertEquals("El tamaño es cero", 0, q.size());
+		assertEquals("El tamaño es 0", 0, q.size());
 	}
 	
 	/**
