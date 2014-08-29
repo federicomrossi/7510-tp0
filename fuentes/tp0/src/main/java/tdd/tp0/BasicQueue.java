@@ -7,7 +7,7 @@ package tdd.tp0;
 * 
 * @author  Federico Rossi (federicomrossi@gmail.com)
 * @version 1.0
-* @since   2014-08-25
+* @since   2014-08-28
 */
 public class BasicQueue implements Queue {
 
@@ -45,7 +45,6 @@ public class BasicQueue implements Queue {
 	 */
 	public void add(Object item) {
 		// TODO Auto-generated method stub
-
 	}
 
 	/**
@@ -53,10 +52,10 @@ public class BasicQueue implements Queue {
 	 * Retorna el primer elemento de la cola.
 	 * <p>
 	 * 
-	 * @exception Excepción La cola se encuentra vacía
+	 * @exception IllegalStateException La cola se encuentra vacía
 	 * @return	Elemento de tipo Object.
 	 */
-	public Object top() {
+	public Object top() throws IllegalStateException {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -66,11 +65,10 @@ public class BasicQueue implements Queue {
 	 * Remueve el primer elemento de la cola.
 	 * <p>
 	 * 
-	 * @exception Excepción La cola se encuentra vacía
+	 * @exception IllegalStateException La cola se encuentra vacía
 	 */
-	public void remove() {
+	public void remove() throws IllegalStateException {
 		// TODO Auto-generated method stub
-
 	}
 
 }
