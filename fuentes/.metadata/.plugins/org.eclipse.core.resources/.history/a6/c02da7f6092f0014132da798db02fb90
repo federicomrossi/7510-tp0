@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package tdd.tp0;
+
+/**
+ * @author Federico
+ *
+ */
+public class BasicQueue implements Queue {
+
+	/* (non-Javadoc)
+	 * @see tdd.tp0.Queue#isEmpty()
+	 */
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see tdd.tp0.Queue#size()
+	 */
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/* (non-Javadoc)
+	 * @see tdd.tp0.Queue#add(java.lang.Object)
+	 */
+	public void add(Object item) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see tdd.tp0.Queue#top()
+	 */
+	public Object top() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see tdd.tp0.Queue#remove()
+	 */
+	public void remove() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

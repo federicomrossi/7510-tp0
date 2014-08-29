@@ -1,0 +1,24 @@
+package tdd.tp0;
+
+public interface Queue {
+	
+	/**
+	 * <h2>isEmpty()</h2>
+	 * Comprueba si la cola se encuentra vacía.
+	 * <p>
+	 * 
+	 * @return	'true' si la cola se encuentra vacía o 'false' en su defecto.
+	 */
+	boolean isEmpty();
+	
+	int size();
+	
+	// Agrega un item
+	void add(Object item); 
+	
+	// Retorna el primer item, lanza exception si esta vacío.
+	Object top(); 
+	
+	 // remover el primer item, lanzar exception si esta vacío.
+	void remove();
+}
