@@ -1,5 +1,15 @@
 package tdd.tp0;
 
+
+/**
+* <h1>Interface Queue</h1>
+* Define una interface para una Cola con métodos básicos a ser implementados.
+* <p>
+* 
+* @author  Federico Rossi (federicomrossi@gmail.com)
+* @version 1.0
+* @since   2014-08-28
+*/
 public interface Queue {
 	
 	/**
@@ -38,7 +48,7 @@ public interface Queue {
 	 * Retorna el primer elemento de la cola.
 	 * <p>
 	 * 
-	 * @exception Excepción La cola se encuentra vacía
+	 * @exception AssertionError La cola se encuentra vacía
 	 * @return	Elemento de tipo Object.
 	 */
 	Object top(); 
@@ -49,7 +59,7 @@ public interface Queue {
 	 * Remueve el primer elemento de la cola.
 	 * <p>
 	 * 
-	 * @exception Excepción La cola se encuentra vacía
+	 * @exception AssertionError La cola se encuentra vacía
 	 */
 	void remove();
 }

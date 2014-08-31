@@ -51,11 +51,11 @@ public class BasicQueue implements Queue
 	}
 
 	/**
-	 * <h2>size()</h2>
+	 * <h2>top()</h2>
 	 * Retorna el primer elemento de la cola.
 	 * <p>
 	 * 
-	 * @exception IllegalStateException La cola se encuentra vacía
+	 * @exception AssertionError La cola se encuentra vacía
 	 * @return	Elemento de tipo Object.
 	 */
 	public Object top() throws AssertionError
@@ -64,11 +64,11 @@ public class BasicQueue implements Queue
 	}
 
 	/**
-	 * <h2>size()</h2>
+	 * <h2>remove()</h2>
 	 * Remueve el primer elemento de la cola.
 	 * <p>
 	 * 
-	 * @exception IllegalStateException La cola se encuentra vacía
+	 * @exception AssertionError La cola se encuentra vacía
 	 */
 	public void remove() throws AssertionError
 	{
