@@ -4,11 +4,11 @@
 
   <groupId>tdd</groupId>
   <artifactId>tp0</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>v1.0</version>
   <packaging>jar</packaging>
 
-  <name>tp0</name>
-  <url>http://maven.apache.org</url>
+  <name>TP0-Rossi-92086</name>
+  <url>https://github.com/federicomrossi/7510-tp0</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
