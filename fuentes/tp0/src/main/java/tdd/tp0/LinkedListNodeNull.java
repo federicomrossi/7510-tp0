@@ -54,19 +54,6 @@ public class LinkedListNodeNull extends LinkedListNode
 	public void setNextNode(LinkedListNode newNextNode) { }
 	
 	/**
-	 * <h2>countMeAndGoToNextNode()</h2>
-	 * Retorna la cantidad de nodos que se encuentran unidos entre sí
-	 * <p>
-	 * 
-	 * @return	Integer que representa la cantidad de nodos encadenados.
-	 */
-	@Override
-	public int countMeAndGoToNextNode()
-	{
-		return 0;
-	}
-	
-	/**
 	 * <h2>sinkNode()</h2>
 	 * Permite hundir un nodo hacia el fondo de la cadena de nodos unidos entre sí.
 	 * Es decir, coloca un nuevo nodo luego del último nodo actual de la cadena.
@@ -80,5 +67,18 @@ public class LinkedListNodeNull extends LinkedListNode
 	public void sinkNode(LinkedListNode node, LinkedListNode comingNode)
 	{
 		comingNode.setNextNode(node);
+	}
+	
+	/**
+	 * <h2>countMeAndGoToNextNode()</h2>
+	 * Retorna la cantidad de nodos que se encuentran unidos entre sí
+	 * <p>
+	 * 
+	 * @return	Integer que representa la cantidad de nodos encadenados.
+	 */
+	@Override
+	protected int countMeAndGoToNextNode()
+	{
+		return 0;
 	}
 }

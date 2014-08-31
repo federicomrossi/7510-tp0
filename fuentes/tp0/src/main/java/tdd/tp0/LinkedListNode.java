@@ -38,6 +38,18 @@ public abstract class LinkedListNode {
 	}
 	
 	/**
+	 * <h2>sizeOfChainOfNodes()</h2>
+	 * Retorna la cantidad de nodos que se encuentran unidos entre sí
+	 * <p>
+	 * 
+	 * @return	Integer que representa la cantidad de nodos encadenados.
+	 */
+	public int sizeOfChainOfNodes()
+	{
+		return this.countMeAndGoToNextNode();
+	}
+	
+	/**
 	 * <h2>getNextNode()</h2>
 	 * Retorna el nodo siguiente.
 	 * <p>
@@ -55,15 +67,6 @@ public abstract class LinkedListNode {
 	 * @return	Nada.
 	 */
 	public abstract void setNextNode(LinkedListNode newNextNode);
-
-	/**
-	 * <h2>countMeAndGoToNextNode()</h2>
-	 * Retorna la cantidad de nodos que se encuentran unidos entre sí
-	 * <p>
-	 * 
-	 * @return	Integer que representa la cantidad de nodos encadenados.
-	 */
-	public abstract int countMeAndGoToNextNode();
 	
 	/**
 	 * <h2>sinkNode()</h2>
@@ -76,6 +79,15 @@ public abstract class LinkedListNode {
 	 * @return	Nada.
 	 */
 	public abstract void sinkNode(LinkedListNode node, LinkedListNode comingNode);
+	
+	/**
+	 * <h2>countMeAndGoToNextNode()</h2>
+	 * Retorna la cantidad de nodos que se encuentran unidos entre sí
+	 * <p>
+	 * 
+	 * @return	Integer que representa la cantidad de nodos encadenados.
+	 */
+	protected abstract int countMeAndGoToNextNode();
 }
 
 	
