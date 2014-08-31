@@ -45,11 +45,11 @@ public class BasicQueueTest extends TestCase {
 		{
 			q.top();
 		}
-		catch(IllegalStateException e1)
+		catch(AssertionError e1)
 		{
 			return;
 		}
-		fail("Se esperaba IllegalStateException");
+		fail("Se esperaba AssertionError");
 	}
 	
 	/**
@@ -64,11 +64,11 @@ public class BasicQueueTest extends TestCase {
 		{
 			q.remove();
 		}
-		catch(IllegalStateException e1)
+		catch(AssertionError e1)
 		{
 			return;
 		}
-		fail("Se esperaba IllegalStateException");
+		fail("Se esperaba AssertionError");
 	}
 	
 	/**
@@ -129,14 +129,26 @@ public class BasicQueueTest extends TestCase {
 		q.remove();
 		assertTrue("La cola debe estar vacía", q.isEmpty());
 		
+		q.add(1);
+		assertEquals("El elemento 1 se encuentra en el top de la cola", 1, q.top());
+		q.add(2);
+		q.add(3);
+		assertEquals("El elemento 1 se encuentra en el top de la cola", 1, q.top());
+		q.remove();
+		assertEquals("El elemento 2 se encuentra en el top de la cola", 2, q.top());
+		q.remove();
+		assertEquals("El elemento 3 se encuentra en el top de la cola", 3, q.top());
+		q.remove();
+		assertTrue("La cola debe estar vacía", q.isEmpty());
+		
 		try
 		{
 			q.remove();
 		}
-		catch(IllegalStateException e1)
+		catch(AssertionError e1)
 		{
 			return;
 		}
-		fail("Se esperaba IllegalStateException");
+		fail("Se esperaba AssertionError");
 	}
 }

@@ -11,9 +11,7 @@ package tdd.tp0;
 */
 public class BasicQueue implements Queue
 {
-	private BasicQueueNode last = null;
-	private BasicQueueNode top = null;
-	private int cantNodes = 0;
+	private LinkedList linkedList = new LinkedList();
 	
 	/**
 	 * <h2>isEmpty()</h2>
@@ -24,7 +22,7 @@ public class BasicQueue implements Queue
 	 */
 	public boolean isEmpty()
 	{
-		return this.top == null;
+		return this.linkedList.size() == 0;
 	}
 
 	/**
@@ -36,7 +34,7 @@ public class BasicQueue implements Queue
 	 */
 	public int size()
 	{
-		return this.cantNodes;
+		return this.linkedList.size();
 	}
 
 	/**
@@ -49,17 +47,7 @@ public class BasicQueue implements Queue
 	 */
 	public void add(Object item)
 	{
-		BasicQueueNode n = new BasicQueueNode(item);
-		
-		if(this.last != null)
-			this.last.setNext(n);
-		
-		this.last = n;
-		
-		if(this.top == null)
-			this.top = this.last;
-		
-		this.cantNodes++;
+		this.linkedList.insertBottom(item);
 	}
 
 	/**
@@ -70,12 +58,9 @@ public class BasicQueue implements Queue
 	 * @exception IllegalStateException La cola se encuentra vacía
 	 * @return	Elemento de tipo Object.
 	 */
-	public Object top() throws IllegalStateException
+	public Object top() throws AssertionError
 	{
-		if(this.top == null)
-			throw new IllegalStateException("La cola se encuentra vacía");
-		
-		return this.top.getElement();
+		return this.linkedList.getTop();
 	}
 
 	/**
@@ -85,17 +70,8 @@ public class BasicQueue implements Queue
 	 * 
 	 * @exception IllegalStateException La cola se encuentra vacía
 	 */
-	public void remove() throws IllegalStateException
+	public void remove() throws AssertionError
 	{
-		if(this.top == null)
-			throw new IllegalStateException("La cola se encuentra vacía");
-	
-		this.top = this.top.getNext();
-		this.cantNodes--;
+		this.linkedList.removeTop();
 	}
-	
-//	private BasicQueueNode getNextUntilTop(BasicQueueNode n)
-//	{
-//		return this.getNextUntilTop(n.getNext());
-//	}
 }
